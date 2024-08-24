@@ -8,6 +8,8 @@ import React, {
 } from "react";
 import { ChatMessage } from "../types/chatMessage";
 
+export const maxDuration = 300
+
 interface InputFieldProps {
   label: string;
   value: string;
